@@ -1,0 +1,1 @@
+jdbc:sqlite:/home/qwerty/Downloads/Laborator_6_7/Biblioteca_a_doua_si_a_treia_iteratie/Library/library.db

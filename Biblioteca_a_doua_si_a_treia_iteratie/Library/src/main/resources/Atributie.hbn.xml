@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="domain">
+    <class name="domain.Atributie" table="ATRIBUTII">
+        <id name="id" column="id"> <generator class="increment"/> </id>
+        <property name="title" column="title"/>
+        <property name="catre" column="catre"/>
+        <property name="descriere" column="descriere"/>
+        <property name="year_of_publication" column="year_of_publication"/>
+    </class>
+</hibernate-mapping>
